@@ -1,6 +1,6 @@
 # worker
 
-A new Flutter project.
+An a easy and simple way to hire handymen in the area to a work for you 
 
 ## Getting Started
 
