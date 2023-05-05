@@ -15,7 +15,9 @@ class _UserMainPageState extends State<UserMainPage> {
     return GestureDetector(
       onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
       child: const Scaffold(
-        body: Center(child: Text('mainPage')),
+        body: Center(
+            child:
+                Text('mainPage that have only nav bar and logout probable ')),
       ),
     );
   }
