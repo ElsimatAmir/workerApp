@@ -24,5 +24,10 @@ class AppRouter extends $AppRouter {
       transitionsBuilder: TransitionsBuilders.slideLeft,
       durationInMilliseconds: durationInMilliseconds,
     ),
+    CustomRoute(
+      page: UserMainRoute.page,
+      transitionsBuilder: transitionsBuilder,
+      durationInMilliseconds: durationInMilliseconds,
+    ),
   ];
 }

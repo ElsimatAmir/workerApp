@@ -1,16 +1,19 @@
-# worker
+### worker
 
-A new Flutter project.
+A Flutter App where you can hire a handyman to work for you in kazan
+## App technology
+1- For UI the app is using Dart + Flutter framework
+2- Backend of the App is a REST API server that build with python + fastAPI
+3- Database for this App will be used Postrgresql DB
 
-## Getting Started
+## to start
+App is using libraries that need to generate code
+so before start make sure to run :
+1. `flutter pub get`
+2. `flutter packages pub  run build_runner build --delete-conflicting-outputs`
 
-This project is a starting point for a Flutter application.
+# developer 'Creator'
+Flutter UI APP          -> Elcimat Amir
+backend REST API Server -> Elcimat Amir 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

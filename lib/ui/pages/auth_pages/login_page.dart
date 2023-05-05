@@ -153,5 +153,11 @@ class _LoginPageState extends State<LoginPage> {
   }
 
 //TODO: add a loging logic by clicking the login Button
-  void _logIn() {}
+  void _logIn() {
+    //1- check the login and password
+    //2- get the user that is signed in now
+    //3- go to users routes
+    //5- the UserMain route should pass the current user to the Page
+    _router.replaceAll(const [UserMainRoute()]);
+  }
 }
